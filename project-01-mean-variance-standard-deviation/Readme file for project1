@@ -1,0 +1,37 @@
+# 📊 Project 01 – Mean, Variance, and Standard Deviation Calculator
+
+This project is part of the [freeCodeCamp - Data Analysis with Python Certification](https://www.freecodecamp.org/learn/data-analysis-with-python/).  
+It involves creating a function that calculates various statistical measures from a list of 9 numerical values, arranged into a 3x3 NumPy matrix.
+
+---
+
+## 🎯 Project Objective
+
+Build a Python function that:
+- Accepts a list of 9 numerical values.
+- Converts it into a 3x3 matrix using NumPy.
+- Calculates the following:
+  - Mean
+  - Variance
+  - Standard Deviation
+  - Minimum
+  - Maximum
+  - Sum  
+Each of these metrics should be calculated:
+- For each column
+- For each row
+- For the flattened matrix
+
+---
+
+## 🧰 Technologies Used
+- Python 3
+- NumPy Library
+- IDE: [Replit](https://replit.com/) (for development)
+
+---
+
+## 📥 Sample Input
+
+```python
+calculate([2, 6, 2, 8, 4, 0, 1, 5, 7])
