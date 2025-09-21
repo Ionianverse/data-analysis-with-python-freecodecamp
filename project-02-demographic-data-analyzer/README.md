@@ -24,6 +24,11 @@ The goal is to analyze demographic data using **pandas** and calculate various s
 - pandas
 - numpy
 
+## Dataset
+- File: `demographic_data.csv`
+- Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult)
+- Mirror: [freeCodeCamp GitHub link](https://raw.githubusercontent.com/freeCodeCamp/boilerplate-demographic-data-analyzer/master/adult.data.csv)
+
 ## How to Run
 ```bash
 pip install -r requirements.txt
