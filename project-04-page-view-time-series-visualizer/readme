@@ -1,0 +1,42 @@
+# 📊 Project 04 – Time Series Visualizer
+
+This project is part of the [freeCodeCamp - Data Analysis with Python Certification](https://www.freecodecamp.org/learn/data-analysis-with-python/).  
+It involves analyzing and visualizing time series data of daily page views from the freeCodeCamp forum.
+
+---
+
+## 🎯 Project Objective
+
+Build a Python script that:
+- Imports daily page view data from `fcc-forum-pageviews.csv`.
+- Cleans the data by removing outliers (values outside the 2.5th and 97.5th percentiles).
+- Creates the following visualizations:
+  1. **Line Plot** – Daily page views over time.
+  2. **Bar Plot** – Average page views per month for each year.
+  3. **Box Plot** – Distribution of page views per month and year.
+
+---
+
+## 🧰 Technologies Used
+- Python 3
+- pandas
+- matplotlib
+- seaborn
+- IDE: [Replit](https://replit.com/) or any Python IDE
+
+---
+
+## 📥 Dataset
+
+- **File:** `fcc-forum-pageviews.csv`  
+- **Description:** Contains daily page view counts for the freeCodeCamp forum from May 2016 to December 2019.
+
+---
+
+## 🛠️ How to Run
+
+1. Place `fcc-forum-pageviews.csv` in your project folder.
+2. Open terminal/command prompt and navigate to the project folder:
+
+```bash
+cd path/to/Time-Series-Visualizer
