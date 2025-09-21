@@ -1,0 +1,36 @@
+# Project 05 – Sea Level Predictor
+
+## Overview
+This project is part of **freeCodeCamp’s Data Analysis with Python** certification.  
+The goal is to **analyze historical sea level data and predict future sea levels** using linear regression.
+
+## Dataset
+- **File:** `epa-sea-level.csv`  
+- **Description:** Contains global average sea level data from 1880 to the present, including:  
+  - `Year` – Year of measurement  
+  - `CSIRO Adjusted Sea Level` – Sea level in inches  
+  - `Lower Error Bound` – Lower error estimate  
+  - `Upper Error Bound` – Upper error estimate  
+
+## Project Tasks
+1. **Scatter Plot**  
+   - Visualize sea level data points over time.  
+
+2. **Line of Best Fit (Full Dataset)**  
+   - Apply linear regression to all data (from 1880 to most recent year).  
+   - Extend the line to predict sea levels through 2050.  
+
+3. **Line of Best Fit (From 2000)**  
+   - Apply linear regression only to data from the year 2000 onward.  
+   - Extend the line to predict sea levels through 2050.  
+
+## Technologies Used
+- **Python 3.x**  
+- **pandas** – Data manipulation  
+- **matplotlib** – Plotting  
+- **scipy.stats** – Linear regression  
+
+## How to Run
+1. Install dependencies:  
+```bash
+pip install pandas matplotlib scipy
